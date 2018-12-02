@@ -90,11 +90,64 @@
       background-color:#E4E4E4;
     }
 
+    .clear_box{
+      clear:both;
+    }
+
     #top_2{
-      width;
-      height:100px;
+      width:100%;
+      height:70px;
+      background-color:#BB1919;
+    }
+
+    #top_2_text_box{
+      width:1000px;
+      margin:0 auto;
+      height:70px;
+    }
+
+    #top_2_text{
+      color:white;
+      font-size:60px;
+    }
+
+    #top_2_menu{
+      width:100%;
+      height:35px;
       background-color:#A91717;
     }
+
+    #top_2_menu_center{
+      width:1000px;
+      margin:0 auto;
+      height:35px;
+      //background-color:black;
+    }
+
+    .menu_text_box{
+      border-right:1px white solid;
+      float:left;
+    }
+
+    .menu_text{
+      padding-right:7px;
+      margin:7px 5px 5px 5px;
+      color:white;
+      text-align:center;
+    }
+
+    #menu_more{
+      float:left;
+      margin:7px 1px 5px 5px;
+      color:white;
+      text-align:center;
+    }
+
+    #menu_more_img{
+       float:left;
+       margin-top:5px;
+    }
+
   </style>
 </head>
 <body>
@@ -136,8 +189,38 @@
     <div id = "searchimg">
       <img src = "search.png" width = "36px" height = "46px">
   </div>
-  <div id = "top_2">
+</div>
 
+  <div class = "clear_box"></div>
+
+  <div id = "top_2">
+    <div id = top_2_text_box>
+      <span id = "top_2_text">NEWS</span>
+    </div>
   </div>
+
+  <div class = "clear_box"></div>
+
+  <div id = "top_2_menu">
+    <div id = "top_2_menu_center">
+      <div class = "menu_text_box menu_text">Home</div>
+      <div class = "menu_text_box menu_text">Video</div>
+      <div class = "menu_text_box menu_text">World</div>
+      <div class = "menu_text_box menu_text">Asia</div>
+      <div class = "menu_text_box menu_text">UK</div>
+      <div class = "menu_text_box menu_text">Business</div>
+      <div class = "menu_text_box menu_text">Tech</div>
+      <div class = "menu_text_box menu_text">Science</div>
+      <div class = "menu_text_box menu_text">Stories</div>
+      <div class = "menu_text_box menu_text">Entertainment & Arts</div>
+      <div class = "menu_text_box menu_text">Health</div>
+      <div class = "menu_text_box menu_text">World News TV</div>
+      <div id = "menu_more">More</div>
+      <div id = "menu_more_img">
+        <img src = "more_dropdown.png" width="75%" height="75%">
+      </div>
+    </div>
+  </div>
+
 </body>
 </html>
