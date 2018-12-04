@@ -31,6 +31,7 @@
       margin:0 auto;
       height:45px;
       font-weight:bold;
+      border-bottom: 1px #CCCCCC solid
 
     }
 
@@ -112,28 +113,32 @@
     }
 
     #top_2_menu{
+
       width:100%;
       height:35px;
       background-color:#A91717;
+
     }
 
     #top_2_menu_center{
+
       width:1000px;
       margin:0 auto;
       height:35px;
-      //background-color:black;
+
     }
 
-    .menu_text_box{
-      border-right:1px white solid;
+    #top_2_menu_center a{
+      border-right:1px #BB4545 solid;
       float:left;
-    }
-
-    .menu_text{
       padding-right:7px;
       margin:7px 5px 5px 5px;
       color:white;
       text-align:center;
+    }
+
+    .menu_text a:hover{
+      border-bottom: 1px white solid;
     }
 
     #menu_more{
@@ -148,14 +153,120 @@
        margin-top:5px;
     }
 
+    #add1{
+      width:700px;
+      margin:0 auto;
+      height:100px;
+    }
+
+    .add1_text{
+
+      float:right;
+      color:grey;
+      font-weight:bolder;
+      padding-top:4px;
+
+    }
+
+    #add1_img{
+      float:left;
+      width:700px;
+      height:80px;
+    }
+
+    #tech{
+      width:1000px;
+      margin:0 auto;
+      height:auto;
+      //background-color:yellow;
+    }
+
+    #tech_text{
+      color:#5C5C5C;
+      font-size:24px;
+      padding-top:10px;
+      width:122px;
+      border-bottom:3px #A91717 solid;
+    }
+
+    #article1{
+        float:left;
+        width:675px;
+        position:relative;
+        top:10px;
+        height:auto;
+        //background-color:yellow;
+    }
+
+    #article_head{
+      float:left;
+      margin-top: 7px;
+      font-size: 37px;
+      font-weight: 600;
+      color:#37423E;
+    }
+
+    #article_head a:hover{
+      color:blue;
+    }
+
+    #article_body{
+        width:280px;
+        float:left;
+    }
+
+    #article_text{
+
+      position:relative;
+      top:10px;
+      color:grey;
+      font-weight:400;
+    }
+
+    #clock{
+      width:-90%;
+      height:-90%;
+      margin:15px 2px 0px 2px;
+    }
+
+    #txt1{
+      font-size: 90%;
+      color:grey;
+      position: relative;
+      top:-5px;
+      padding-right:4px;
+    }
+
+    #txt2 a{
+        font-size: 90%;
+        color:#BB1919;
+        padding-left: 4px;
+        border-left:1px grey solid;
+    }
+
+    #txt2 a:hover{
+      color:blue;
+    }
+
+    #article_img{
+      float:left;
+      margin-left: 10px;
+    }
+
+    #add2{
+           float:left;
+           width:370px;
+           height:600px;
+    }
+
   </style>
 </head>
 <body>
   <div id="top_tab">
     <div id = "BBClogo">
-      <img src = "bbc_logo.png" width = "100px" height = "45px">
+      <img src = "images/bbc_logo.png" width = "100px" height = "45px">
     </div>
-    <img src = "signin.png" id = "sign_logo">
+    <img src = "images/signin.png" id = "sign_logo">
     <div id = "sign_in">
       Sign in
     </div>
@@ -187,7 +298,7 @@
     </form>
 
     <div id = "searchimg">
-      <img src = "search.png" width = "36px" height = "46px">
+      <img src = "images/search.png" width = "36px" height = "46px">
   </div>
 </div>
 
@@ -203,23 +314,55 @@
 
   <div id = "top_2_menu">
     <div id = "top_2_menu_center">
-      <div class = "menu_text_box menu_text">Home</div>
-      <div class = "menu_text_box menu_text">Video</div>
-      <div class = "menu_text_box menu_text">World</div>
-      <div class = "menu_text_box menu_text">Asia</div>
-      <div class = "menu_text_box menu_text">UK</div>
-      <div class = "menu_text_box menu_text">Business</div>
-      <div class = "menu_text_box menu_text">Tech</div>
-      <div class = "menu_text_box menu_text">Science</div>
-      <div class = "menu_text_box menu_text">Stories</div>
-      <div class = "menu_text_box menu_text">Entertainment & Arts</div>
-      <div class = "menu_text_box menu_text">Health</div>
-      <div class = "menu_text_box menu_text">World News TV</div>
+      <a href = "">Home</a>
+      <a href = "">Video</a>
+      <a href = "">World</a>
+      <a href = "">Asia</a>
+      <a href = "">UK</a>
+      <a href = "">Business</a>
+      <a href = "">Tech</a>
+      <a href = "">Science</a>
+      <a href = "">Stories</a>
+      <a href = "">Entertainment & Arts</a>
+      <a href = "">Health</a>
+      <a href = "">World News TV</a>
       <div id = "menu_more">More</div>
       <div id = "menu_more_img">
-        <img src = "more_dropdown.png" width="75%" height="75%">
+        <img src = "images/more_dropdown.png" width="75%" height="75%">
       </div>
     </div>
+  </div>
+  <div id = "add1">
+    <span class = "add1_text">ADVERTISMENT</span>
+
+    <div class = "clear_box"></div>
+
+    <input type = "image" src = "images/add1.png" id = "add1_img">
+  </div>
+
+  <div class = "clear_box"></div>
+
+  <div id = "tech">
+    <div id = "tech_text">Technology</div>
+    <div id = "article1">
+      <div id = "article_head"><a href = "">Space Odyssey launches first 8K TV channel</a></div>
+      <div id = "article_body">
+        <span id ="article_text">The classic film was broadcast in super-high definition
+          8K on a new TV channel in Japan.
+        </span>
+        <div class = "clear_box"></div>
+        <img src = "images/clock.png" width="25px" height="20px" id = "clock">
+        <span id = "txt1">1 December 2018</span>
+        <div id = "txt2"><a href = "">Technology</a></div>
+      </div>
+      <div id = "article_img"><img src = "images/title2.png" width = "360px" height = "220px"></div>
+    </div>
+  </div>
+
+  <div id = "add2">
+    <div class = "add1_text">ADVERTISMENT</div>
+    <div class = "clear_box"></div>
+    <img src = "images/adv1.png">
   </div>
 
 </body>
